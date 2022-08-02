@@ -109,4 +109,9 @@ p:hover{
     color:hsl(178, 100%, 50%);
 }
 
-
+@media screen {
+    .container{
+        width: 70%;
+        height: 90%;
+    }
+}
