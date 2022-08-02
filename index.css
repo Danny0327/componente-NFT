@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color:hsl(216, 50%, 16%);
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: hsl(215, 32%, 27%);
+    border-radius: 1em;
+    width: 25%;
+    height: 45em;
+    margin: 10%;
+}
+.posicion {
+    position: relative;
+}
+.imagen {
+    width: 80%;
+    border-radius: 1em;
+    margin: 8% 8% 0% 8%;
+    cursor: pointer;
+}
+.imagen1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    visibility: hidden;
+}
+.imagen:hover{
+    filter:opacity(0.4) drop-shadow(0 0 0 cyan); 
+}
+.imagen:hover ~ .imagen1{
+    visibility: visible; 
+}
+.titulo{
+    color: hsl(0, 0%, 100%);
+    margin: 5% 5% -5% 10%;
+    cursor: pointer;
+}
+.titulo:hover {
+color:hsl(178, 100%, 50%);
+}
+.parrafo {
+    color: hsl(215, 51%, 70%);
+    margin: 10%;
+    font-size:larger;
+}
+.caja {
+    display: flex;
+    justify-content:space-around;
+}
+section {
+    display: flex;
+    justify-content:space-between;
+}
+.icono{
+    width: 20%;
+    height: 40%;
+    position: relative;
+    margin: 10%;
+}
+.eth{
+    color: hsl(178, 100%, 50%);
+    font-size:medium;
+    white-space: nowrap;
+}
+article {
+    display: flex;
+    justify-content:space-between;
+}
+.reloj {
+    width: 20%;
+    height: 40%;
+    margin: 10%;
+}
+.days {
+    color: hsl(215, 51%, 70%);
+    font-size:medium;
+    white-space: nowrap;
+}
+hr{
+    height: 0px;
+    width: 80%;
+    background-color:hsl(215, 51%, 70%);
+}
+.creation {
+    justify-content:initial;
+}
+.avatar {
+    margin: 0% 5% 0% 8%;
+    width: 10%;
+    height: 25%;
+}
+.final {
+    color: hsl(215, 51%, 70%);
+    margin: 2%;
+}
+p {
+    color: hsl(0, 0%, 100%);
+    margin: 2%;
+    cursor: pointer;
+}
+p:hover{
+    color:hsl(178, 100%, 50%);
+}
+
+
